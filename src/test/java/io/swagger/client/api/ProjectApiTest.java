@@ -12,8 +12,7 @@ public class ProjectApiTest extends BaseTest {
     ProjectApi projectApi  = new ProjectApi(client);
 
     @Test
-    public void CreateProjectTest() throws ApiException
-    {
+    public void CreateProjectTest() throws ApiException {
         String newProjectName = "CreateProjectTest_" + LocalDateTime.now();
 
         NewProjectDescription body = new NewProjectDescription();

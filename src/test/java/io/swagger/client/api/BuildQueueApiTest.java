@@ -23,17 +23,5 @@ public class BuildQueueApiTest extends BaseTest {
 
         assertThat(response.getBuildTypeId()).as("BuildTypeId from response is not equal to " + buildType.getId()).isEqualTo(buildType.getId());
         assertThat(response.getState()).as(buildType.getId() + " state is not queued").isEqualTo(Build.StateEnum.QUEUED);
-
-
     }
-
-//    @Test
-//    public void getBuild() throws ApiException
-//    {
-//        String locator = null;
-//        String fields = null;
-//        Builds response = buildQueueApi.getAllQueuedBuilds(locator, fields);
-//        List<Build> builds = response.getBuild();
-//        System.out.println(builds.get(0));
-//    }
 }

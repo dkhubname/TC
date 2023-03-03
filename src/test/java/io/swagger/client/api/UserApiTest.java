@@ -27,7 +27,6 @@ public class UserApiTest extends BaseTest {
         User getUser  = userApi.getUser("username:" + userName,null);
 
         assertThat(getUser.getUsername()).isEqualTo(createdUser.getUsername());
-
     }
 
     @Test()
@@ -42,12 +41,5 @@ public class UserApiTest extends BaseTest {
 
         assertThat(addUserResponse.getStatusCode()).isEqualTo(400);
         assertThat(createdUserData).contains("Password must not be empty when creating user.");
-
-
-
-
-
     }
-
-
 }
