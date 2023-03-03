@@ -21,5 +21,9 @@ public class ProjectApiTest extends BaseTest {
         Project project = projectApi.addProject(body);
 
         assertThat(project.getName()).as(" state is not queued").isEqualTo(newProjectName);
+
+        Project getProject  = projectApi.getProject("name:" + newProjectName,null);
+
+        assertThat(getProject.getName()).as("").isEqualTo(newProjectName);
     }
 }
