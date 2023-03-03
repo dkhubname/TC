@@ -28,7 +28,7 @@ import java.io.IOException;
  * Represents the specific file change (in the scope of the commit).
  */
 @ApiModel(description = "Represents the specific file change (in the scope of the commit).")
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2023-02-26T16:22:21.476Z")
+
 public class FileChange {
   @SerializedName("before-revision")
   private String beforeRevision = null;

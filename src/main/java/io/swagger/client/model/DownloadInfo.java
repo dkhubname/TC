@@ -32,7 +32,7 @@ import java.util.List;
  * List of metadata on artifacts downloaded from [or provided by] a build.
  */
 @ApiModel(description = "List of metadata on artifacts downloaded from [or provided by] a build.")
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2023-02-26T16:22:21.476Z")
+
 public class DownloadInfo {
   @SerializedName("build")
   private Build build = null;

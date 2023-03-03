@@ -29,7 +29,7 @@ import org.threeten.bp.OffsetDateTime;
  * Represents a locator string for filtering Mute entities.
  */
 @ApiModel(description = "Represents a locator string for filtering Mute entities.")
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2023-02-26T16:22:21.476Z")
+
 public class MuteLocator {
   @SerializedName("affectedProject")
   private String affectedProject = null;

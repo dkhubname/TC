@@ -32,7 +32,7 @@ import java.util.List;
  * Represents a paginated list of TestOccurrence entities.
  */
 @ApiModel(description = "Represents a paginated list of TestOccurrence entities.")
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2023-02-26T16:22:21.476Z")
+
 public class TestOccurrences {
   @SerializedName("count")
   private Integer count = null;

@@ -30,7 +30,7 @@ import java.io.IOException;
  * Represents approval status for this build, if applicable.
  */
 @ApiModel(description = "Represents approval status for this build, if applicable.")
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2023-02-26T16:22:21.476Z")
+
 public class ApprovalInfo {
   @SerializedName("timeoutTimestamp")
   private String timeoutTimestamp = null;

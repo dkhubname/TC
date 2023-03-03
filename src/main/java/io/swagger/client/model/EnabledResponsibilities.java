@@ -31,7 +31,7 @@ import java.util.List;
  * Represents a set of enabled responsibilities of a TeamCity node.
  */
 @ApiModel(description = "Represents a set of enabled responsibilities of a TeamCity node.")
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2023-02-26T16:22:21.476Z")
+
 public class EnabledResponsibilities {
   @SerializedName("count")
   private Integer count = null;

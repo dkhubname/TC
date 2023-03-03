@@ -28,7 +28,7 @@ import java.io.IOException;
  * Represents test metadata (package, method, class, and so on).
  */
 @ApiModel(description = "Represents test metadata (package, method, class, and so on).")
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2023-02-26T16:22:21.476Z")
+
 public class ParsedTestName {
   @SerializedName("testPackage")
   private String testPackage = null;

@@ -30,7 +30,7 @@ import java.io.IOException;
  * Represents a running cloud instance.
  */
 @ApiModel(description = "Represents a running cloud instance.")
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2023-02-26T16:22:21.476Z")
+
 public class CloudInstance {
   @SerializedName("id")
   private String id = null;

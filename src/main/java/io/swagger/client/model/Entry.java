@@ -28,7 +28,7 @@ import java.io.IOException;
  * Represents a single name-value relation.
  */
 @ApiModel(description = "Represents a single name-value relation.")
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2023-02-26T16:22:21.476Z")
+
 public class Entry {
   @SerializedName("name")
   private String name = null;

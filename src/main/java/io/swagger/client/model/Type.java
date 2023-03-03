@@ -28,7 +28,7 @@ import java.io.IOException;
  * Represents a build parameter type string.
  */
 @ApiModel(description = "Represents a build parameter type string.")
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2023-02-26T16:22:21.476Z")
+
 public class Type {
   @SerializedName("rawValue")
   private String rawValue = null;

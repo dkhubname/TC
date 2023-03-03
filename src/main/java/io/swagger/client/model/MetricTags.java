@@ -31,7 +31,7 @@ import java.util.List;
  * Represents a list of MetricTag entities.
  */
 @ApiModel(description = "Represents a list of MetricTag entities.")
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2023-02-26T16:22:21.476Z")
+
 public class MetricTags {
   @SerializedName("count")
   private Integer count = null;

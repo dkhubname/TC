@@ -31,7 +31,7 @@ import java.io.IOException;
  * Represents a compatibility relation between the agent and build configuration.
  */
 @ApiModel(description = "Represents a compatibility relation between the agent and build configuration.")
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2023-02-26T16:22:21.476Z")
+
 public class Compatibility {
   @SerializedName("compatible")
   private Boolean compatible = null;

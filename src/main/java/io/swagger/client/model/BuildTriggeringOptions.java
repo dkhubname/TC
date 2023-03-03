@@ -29,7 +29,7 @@ import java.io.IOException;
  * Represents the dependency/queue settings with which this build has been started.
  */
 @ApiModel(description = "Represents the dependency/queue settings with which this build has been started.")
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2023-02-26T16:22:21.476Z")
+
 public class BuildTriggeringOptions {
   @SerializedName("cleanSources")
   private Boolean cleanSources = null;

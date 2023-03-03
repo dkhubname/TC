@@ -28,7 +28,7 @@ import java.io.IOException;
  * Represents a locator string for filtering Problem entities.
  */
 @ApiModel(description = "Represents a locator string for filtering Problem entities.")
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2023-02-26T16:22:21.476Z")
+
 public class ProblemLocator {
   @SerializedName("affectedProject")
   private String affectedProject = null;

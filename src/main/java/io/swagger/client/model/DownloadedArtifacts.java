@@ -31,7 +31,7 @@ import java.util.List;
  * Collection of artifacts metadata which were downloaded from dependencies of this build or delivered to ones depending on this build.
  */
 @ApiModel(description = "Collection of artifacts metadata which were downloaded from dependencies of this build or delivered to ones depending on this build.")
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2023-02-26T16:22:21.476Z")
+
 public class DownloadedArtifacts {
   @SerializedName("unfilteredCount")
   private Integer unfilteredCount = null;

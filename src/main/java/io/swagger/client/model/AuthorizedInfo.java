@@ -29,7 +29,7 @@ import java.io.IOException;
  * Represents agent authorization data.
  */
 @ApiModel(description = "Represents agent authorization data.")
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2023-02-26T16:22:21.476Z")
+
 public class AuthorizedInfo {
   @SerializedName("status")
   private Boolean status = null;

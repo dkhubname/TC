@@ -29,7 +29,7 @@ import java.io.IOException;
  * Represents the pinned status of this build.
  */
 @ApiModel(description = "Represents the pinned status of this build.")
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2023-02-26T16:22:21.476Z")
+
 public class PinInfo {
   @SerializedName("status")
   private Boolean status = null;

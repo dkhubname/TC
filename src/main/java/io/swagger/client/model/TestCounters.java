@@ -28,7 +28,7 @@ import java.io.IOException;
  * Represents a test results counter (how many times this test was successful/failed/muted/ignored).
  */
 @ApiModel(description = "Represents a test results counter (how many times this test was successful/failed/muted/ignored).")
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2023-02-26T16:22:21.476Z")
+
 public class TestCounters {
   @SerializedName("ignored")
   private Integer ignored = null;

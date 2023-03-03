@@ -30,7 +30,7 @@ import java.io.IOException;
  * Represents the specific server metric.
  */
 @ApiModel(description = "Represents the specific server metric.")
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2023-02-26T16:22:21.476Z")
+
 public class Metric {
   @SerializedName("name")
   private String name = null;

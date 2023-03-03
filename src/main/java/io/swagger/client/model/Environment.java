@@ -28,7 +28,7 @@ import java.io.IOException;
  * Represents the details of the agent&#39;s OS.
  */
 @ApiModel(description = "Represents the details of the agent's OS.")
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2023-02-26T16:22:21.476Z")
+
 public class Environment {
   @SerializedName("osType")
   private String osType = null;

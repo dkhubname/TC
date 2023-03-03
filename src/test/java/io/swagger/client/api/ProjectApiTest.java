@@ -1,13 +1,8 @@
 package io.swagger.client.api;
 
-import io.swagger.client.ApiClient;
 import io.swagger.client.ApiException;
-import io.swagger.client.model.Build;
 import io.swagger.client.model.NewProjectDescription;
 import io.swagger.client.model.Project;
-import io.swagger.client.model.Projects;
-import org.junit.jupiter.api.BeforeAll;
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.threeten.bp.LocalDateTime;
 

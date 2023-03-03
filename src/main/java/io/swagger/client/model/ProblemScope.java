@@ -31,7 +31,7 @@ import java.io.IOException;
  * Represents an investigation scope.
  */
 @ApiModel(description = "Represents an investigation scope.")
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2023-02-26T16:22:21.476Z")
+
 public class ProblemScope {
   @SerializedName("project")
   private Project project = null;

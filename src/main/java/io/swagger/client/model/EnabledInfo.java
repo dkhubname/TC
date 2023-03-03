@@ -29,7 +29,7 @@ import java.io.IOException;
  * Represents the current enablement status of the agent.
  */
 @ApiModel(description = "Represents the current enablement status of the agent.")
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2023-02-26T16:22:21.476Z")
+
 public class EnabledInfo {
   @SerializedName("status")
   private Boolean status = null;

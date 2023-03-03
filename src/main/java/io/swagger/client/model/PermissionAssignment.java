@@ -30,7 +30,7 @@ import java.io.IOException;
  * Represents a relation between the specific permission and a project.
  */
 @ApiModel(description = "Represents a relation between the specific permission and a project.")
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2023-02-26T16:22:21.476Z")
+
 public class PermissionAssignment {
   @SerializedName("permission")
   private Permission permission = null;

@@ -29,7 +29,7 @@ import java.io.IOException;
  * Represents a dated comment of the specific user.
  */
 @ApiModel(description = "Represents a dated comment of the specific user.")
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2023-02-26T16:22:21.476Z")
+
 public class Comment {
   @SerializedName("timestamp")
   private String timestamp = null;

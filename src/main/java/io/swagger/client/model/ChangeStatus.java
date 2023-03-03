@@ -29,7 +29,7 @@ import java.io.IOException;
  * Aggregated statuses of the first builds with this change. Fairly expensive to compute.
  */
 @ApiModel(description = "Aggregated statuses of the first builds with this change. Fairly expensive to compute.")
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2023-02-26T16:22:21.476Z")
+
 public class ChangeStatus {
   @SerializedName("runningSuccessfullyBuilds")
   private Integer runningSuccessfullyBuilds = null;

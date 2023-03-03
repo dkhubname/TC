@@ -33,7 +33,7 @@ import java.io.IOException;
  * Represents a relation between a VCS root and unique settings set for this root.
  */
 @ApiModel(description = "Represents a relation between a VCS root and unique settings set for this root.")
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2023-02-26T16:22:21.476Z")
+
 public class VcsRootInstance {
   @SerializedName("id")
   private String id = null;

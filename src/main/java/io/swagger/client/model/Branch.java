@@ -29,7 +29,7 @@ import java.io.IOException;
  * Represents a branch on which this build has been started.
  */
 @ApiModel(description = "Represents a branch on which this build has been started.")
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2023-02-26T16:22:21.476Z")
+
 public class Branch {
   @SerializedName("name")
   private String name = null;

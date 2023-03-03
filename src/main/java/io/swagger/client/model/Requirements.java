@@ -28,7 +28,7 @@ import java.io.IOException;
  * Represents a list of unmet requirements of a build.
  */
 @ApiModel(description = "Represents a list of unmet requirements of a build.")
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2023-02-26T16:22:21.476Z")
+
 public class Requirements {
   @SerializedName("description")
   private String description = null;

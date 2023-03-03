@@ -31,7 +31,7 @@ import java.util.List;
  * Represents a set of effective responsibilities of a TeamCity node. A responsibility becomes effective once it is enabled in the server configuration and a responsible node detects this change and updates its state.
  */
 @ApiModel(description = "Represents a set of effective responsibilities of a TeamCity node. A responsibility becomes effective once it is enabled in the server configuration and a responsible node detects this change and updates its state.")
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2023-02-26T16:22:21.476Z")
+
 public class EffectiveResponsibilities {
   @SerializedName("count")
   private Integer count = null;

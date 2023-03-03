@@ -31,7 +31,7 @@ import java.io.IOException;
  * Represents an agent pool instance.
  */
 @ApiModel(description = "Represents an agent pool instance.")
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2023-02-26T16:22:21.476Z")
+
 public class AgentPool {
   @SerializedName("id")
   private Integer id = null;

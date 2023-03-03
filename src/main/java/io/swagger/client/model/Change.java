@@ -37,7 +37,7 @@ import java.io.IOException;
  * Represents a VCS change (commit).
  */
 @ApiModel(description = "Represents a VCS change (commit).")
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2023-02-26T16:22:21.476Z")
+
 public class Change {
   @SerializedName("id")
   private Long id = null;

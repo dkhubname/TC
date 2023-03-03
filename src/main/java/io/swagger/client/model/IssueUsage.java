@@ -30,7 +30,7 @@ import java.io.IOException;
  * Represents a relation between the issue and the Changes entity.
  */
 @ApiModel(description = "Represents a relation between the issue and the Changes entity.")
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2023-02-26T16:22:21.476Z")
+
 public class IssueUsage {
   @SerializedName("changes")
   private Changes changes = null;

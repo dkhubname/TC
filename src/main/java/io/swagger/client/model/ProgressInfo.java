@@ -29,7 +29,7 @@ import java.io.IOException;
  * Represents a progress estimate of this build.
  */
 @ApiModel(description = "Represents a progress estimate of this build.")
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2023-02-26T16:22:21.476Z")
+
 public class ProgressInfo {
   @SerializedName("percentageComplete")
   private Integer percentageComplete = null;

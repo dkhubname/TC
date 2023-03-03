@@ -30,7 +30,7 @@ import java.io.IOException;
  * Represents group approval rule and its current status for the given build.
  */
 @ApiModel(description = "Represents group approval rule and its current status for the given build.")
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2023-02-26T16:22:21.476Z")
+
 public class GroupApprovalRule {
   @SerializedName("group")
   private Group group = null;

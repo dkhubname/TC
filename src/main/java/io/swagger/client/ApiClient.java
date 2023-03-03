@@ -838,18 +838,19 @@ public class ApiClient {
      * @throws ApiException If fail to execute the call
      */
     public <T> ApiResponse<T> execute(Call call, Type returnType) throws ApiException {
+        Response response = null;
+        T data = null;
         try {
-            Response response = call.execute();
+            response = call.execute();
             System.out.println("response code = " + response.code());
             if (response.code() != 200) {
                 System.out.println("response message = " + response.message());
             }
-            T data = handleResponse(response, returnType);
-            return new ApiResponse<T>(response.code(), response.headers().toMultimap(), data);
+             data = handleResponse(response, returnType);
         } catch (IOException e) {
             System.out.println(e.getMessage());
-            throw new ApiException(e);
         }
+        return new ApiResponse<T>(response.code(), response.headers().toMultimap(), data);
     }
 
     /**
@@ -913,7 +914,6 @@ public class ApiClient {
                     try {
                         response.body().close();
                     } catch (IOException e) {
-                        throw new ApiException(response.message(), e, response.code(), response.headers().toMultimap());
                     }
                 }
                 return null;
@@ -927,10 +927,9 @@ public class ApiClient {
                     respBody = response.body().string();
                     System.out.println(respBody);
                 } catch (IOException e) {
-                    throw new ApiException(response.message(), e, response.code(), response.headers().toMultimap());
                 }
             }
-            throw new ApiException(response.message(), response.code(), response.headers().toMultimap(), respBody);
+            return (T) respBody;
         }
     }
 

@@ -31,7 +31,7 @@ import java.io.IOException;
  * Represents an audit event including a user and affected entities.
  */
 @ApiModel(description = "Represents an audit event including a user and affected entities.")
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2023-02-26T16:22:21.476Z")
+
 public class AuditEvent {
   @SerializedName("id")
   private String id = null;

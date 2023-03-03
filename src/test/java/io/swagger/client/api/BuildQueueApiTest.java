@@ -1,16 +1,11 @@
 package io.swagger.client.api;
 
 import io.swagger.client.ApiException;
-import io.swagger.client.model.*;
-import org.junit.Assert;
+import io.swagger.client.model.Build;
+import io.swagger.client.model.BuildType;
 import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;
-
-import java.sql.SQLOutput;
-import java.util.List;
-
-import static org.hamcrest.MatcherAssert.assertThat;
 
 public class BuildQueueApiTest extends BaseTest {
     BuildQueueApi buildQueueApi = new BuildQueueApi(client);

@@ -28,7 +28,7 @@ import java.io.IOException;
  * Represents a locator string for filtering Node entities.
  */
 @ApiModel(description = "Represents a locator string for filtering Node entities.")
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2023-02-26T16:22:21.476Z")
+
 public class TeamCityNodeLocator {
   @SerializedName("item")
   private String item = null;

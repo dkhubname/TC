@@ -31,7 +31,7 @@ import java.util.Map;
  * Represents build customizations (artifact dependency overrides, custom parameters or changesets).
  */
 @ApiModel(description = "Represents build customizations (artifact dependency overrides, custom parameters or changesets).")
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2023-02-26T16:22:21.476Z")
+
 public class Customizations {
   @SerializedName("parameters")
   private Map<String, String> parameters = null;

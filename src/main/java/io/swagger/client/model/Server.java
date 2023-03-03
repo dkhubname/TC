@@ -29,7 +29,7 @@ import java.io.IOException;
  * Represents various details of this server including the installation version.
  */
 @ApiModel(description = "Represents various details of this server including the installation version.")
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2023-02-26T16:22:21.476Z")
+
 public class Server {
   @SerializedName("version")
   private String version = null;

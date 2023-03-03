@@ -28,7 +28,7 @@ import java.io.IOException;
  * Represents a group of links to the user&#39;s avatars
  */
 @ApiModel(description = "Represents a group of links to the user's avatars")
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2023-02-26T16:22:21.476Z")
+
 public class UserAvatars {
   @SerializedName("urlToSize20")
   private String urlToSize20 = null;

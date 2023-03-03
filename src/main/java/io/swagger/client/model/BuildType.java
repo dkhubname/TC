@@ -46,7 +46,7 @@ import java.io.IOException;
  * Represents a build configuration.
  */
 @ApiModel(description = "Represents a build configuration.")
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2023-02-26T16:22:21.476Z")
+
 public class BuildType {
   @SerializedName("id")
   private String id = null;

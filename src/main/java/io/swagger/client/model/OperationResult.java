@@ -29,7 +29,7 @@ import java.io.IOException;
  * Represents a relation between a message and a related entity.
  */
 @ApiModel(description = "Represents a relation between a message and a related entity.")
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2023-02-26T16:22:21.476Z")
+
 public class OperationResult {
   @SerializedName("message")
   private String message = null;

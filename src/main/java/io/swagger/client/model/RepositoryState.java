@@ -31,7 +31,7 @@ import java.util.List;
  * Represents the list of the repository Branch entities with their recent revisions.
  */
 @ApiModel(description = "Represents the list of the repository Branch entities with their recent revisions.")
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2023-02-26T16:22:21.476Z")
+
 public class RepositoryState {
   @SerializedName("timestamp")
   private String timestamp = null;

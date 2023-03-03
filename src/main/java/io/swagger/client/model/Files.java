@@ -31,7 +31,7 @@ import java.util.List;
  * Represents a list of File entities.
  */
 @ApiModel(description = "Represents a list of File entities.")
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2023-02-26T16:22:21.476Z")
+
 public class Files {
   @SerializedName("count")
   private Integer count = null;

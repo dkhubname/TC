@@ -30,7 +30,7 @@ import java.io.IOException;
  * Represents an investigation target.
  */
 @ApiModel(description = "Represents an investigation target.")
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2023-02-26T16:22:21.476Z")
+
 public class ProblemTarget {
   @SerializedName("anyProblem")
   private Boolean anyProblem = null;

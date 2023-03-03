@@ -29,7 +29,7 @@ import java.io.IOException;
  * Represents license state details (available build configurations, agents, etc.).
  */
 @ApiModel(description = "Represents license state details (available build configurations, agents, etc.).")
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2023-02-26T16:22:21.476Z")
+
 public class LicensingData {
   @SerializedName("licenseUseExceeded")
   private Boolean licenseUseExceeded = null;
