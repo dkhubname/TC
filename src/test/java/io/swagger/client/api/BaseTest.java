@@ -11,7 +11,7 @@ public class BaseTest {
     public BaseTest() {
          client = new ApiClient();
         client.setBasePath(host);
-        client.addDefaultHeader("Authorization", token);
+        client.addDefaultHeader("Authorization", "Bearer " + token);
         System.out.println(client);
         helper = new Helper(client);
     }

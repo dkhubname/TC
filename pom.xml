@@ -26,7 +26,7 @@
         <maven-plugin-version>1.0.0</maven-plugin-version>
         <junit-version>4.13.1</junit-version>
         <host>http://localhost:8090</host>
-        <token>Bearer eyJ0eXAiOiAiVENWMiJ9.MlZYWFVOclRmS3lfbHVEajBQVXNYOE5MR3Vr.NTc2MWEzNTAtMTU3ZC00MGIyLTkxNmMtNmIwMTg3YzNlZTQy</token>
+        <token>eyJ0eXAiOiAiVENWMiJ9.MlZYWFVOclRmS3lfbHVEajBQVXNYOE5MR3Vr.NTc2MWEzNTAtMTU3ZC00MGIyLTkxNmMtNmIwMTg3YzNlZTQy</token>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
