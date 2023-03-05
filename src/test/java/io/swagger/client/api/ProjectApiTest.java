@@ -19,10 +19,10 @@ public class ProjectApiTest extends BaseTest {
         body.setName(newProjectName);
         Project project = projectApi.addProject(body);
 
-        assertThat(project.getName()).as(" state is not queued").isEqualTo(newProjectName);
+        assertThat(project.getName()).as("Project name from response is not equal to " + newProjectName).isEqualTo(newProjectName);
 
         Project getProject  = projectApi.getProject("name:" + newProjectName,null);
 
-        assertThat(getProject.getName()).as("").isEqualTo(newProjectName);
+        assertThat(getProject.getName()).as("No such project " + newProjectName).isEqualTo(newProjectName);
     }
 }

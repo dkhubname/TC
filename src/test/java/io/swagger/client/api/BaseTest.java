@@ -9,10 +9,9 @@ public class BaseTest {
     protected ApiClient client;
     protected Helper helper;
     public BaseTest() {
-         client = new ApiClient();
+        client = new ApiClient();
         client.setBasePath(host);
         client.addDefaultHeader("Authorization", "Bearer " + token);
-        System.out.println(client);
         helper = new Helper(client);
     }
 }

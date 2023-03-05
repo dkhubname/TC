@@ -22,11 +22,11 @@ public class UserApiTest extends BaseTest {
         
         User createdUser = userApi.addUser(newUser,null);
 
-        assertThat(createdUser.getUsername()).isEqualTo(newUser.getUsername());
+        assertThat(createdUser.getUsername()).as("Username from response is not equal to " + newUser.getUsername()).isEqualTo(newUser.getUsername());
 
         User getUser  = userApi.getUser("username:" + userName,null);
 
-        assertThat(getUser.getUsername()).isEqualTo(createdUser.getUsername());
+        assertThat(getUser.getUsername()).as("No such user " + createdUser.getUsername()).isEqualTo(createdUser.getUsername());
     }
 
     @Test()
@@ -39,7 +39,7 @@ public class UserApiTest extends BaseTest {
         ApiResponse<User> addUserResponse = userApi.addUserWithHttpInfo(newUser,null);
         String createdUserData = String.valueOf(addUserResponse.getData());
 
-        assertThat(addUserResponse.getStatusCode()).isEqualTo(400);
-        assertThat(createdUserData).contains("Password must not be empty when creating user.");
+        assertThat(addUserResponse.getStatusCode()).as("Unexpected status code").isEqualTo(400);
+        assertThat(createdUserData).as("Unexpected response message").contains("Password must not be empty when creating user.");
     }
 }
